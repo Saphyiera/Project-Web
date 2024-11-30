@@ -1,0 +1,211 @@
+.info-payment {
+    background-color: #fff;
+    border: 1px solid rgba(145, 158, 171, .239);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.block-promotion {
+    width: 100%;
+}
+
+.block-promotion-input {
+    align-items: flex-end;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.block-promotion-input .btn__voucher {
+    flex-shrink: 0;
+    font-size: 14px;
+    height: 35px;
+    white-space: nowrap;
+}
+
+.block-promotion-input button {
+    background-color: rgba(145, 158, 171, .16);
+    border: none;
+    color: #41474b;
+}
+
+.info-quote {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.info-quote__block {
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.info-quote__block .quote-block__item {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.info-quote__block .quote-block__item .quote-block__title {
+    color: #7c8691;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.info-quote__block .quote-block__item .quote-block__value {
+    color: #212b36;
+    font-size: 16px;
+}
+
+.info-quote__bottom {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    width: 100%;
+}
+
+.info-quote__bottom .quote-bottom__title {
+    display: flex;
+    flex-shrink: 0;
+    font-size: 15px;
+}
+
+.info-quote__bottom .quote-bottom__title p {
+    color: #111;
+    font-weight: 600;
+}
+
+.info-quote__bottom .quote-bottom__title span {
+    color: #7c8691;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.info-quote__bottom .quote-bottom__value {
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.payment-quote {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.payment-quote > p {
+    color: #212b36;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.payment-quote__main {
+    align-items: center;
+    background-color: #fff !important;
+    border: 1px solid rgba(145, 158, 171, .239);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    min-height: 70px;
+    padding: 20px;
+    position: relative;
+    transition: .1s ease;
+    user-select: none;
+}
+
+.payment-quote__main .payment-main__img {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    max-width: 65px;
+    height: 40px;
+    width: 40px;
+}
+
+.payment-quote__main .payment-main__title {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.payment-quote__main .payment-main__title p {
+    color: #d70018;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.payment-quote__main .payment-main__title span {
+    color: #637381;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 90%;
+}
+
+.payment-quote__main .payment-main__arrow {
+    align-items: center;
+    color: #d70018;
+    display: flex;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.address-quote {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.address-quote > p {
+    color: #212b36;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.address-quote__main {
+    background-color: #fff !important;
+    border: 1px solid rgba(145, 158, 171, .239);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.address-quote__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.address-quote__block .address-quote__item {
+    align-items: flex-start;
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+}
+
+.address-quote__block .address-quote__item .address-quote__title {
+    color: #7c8691;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.address-quote__block .address-quote__item .address-quote__value {
+    color: #111;
+    font-size: 15px;
+    text-align: right;
+}

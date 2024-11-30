@@ -1,0 +1,168 @@
+#modalViewListItemInQuote_modal-outer {
+    position: absolute;
+    z-index: 1040;
+}
+
+.modal {
+    display: block;
+    height: 100%;
+    left: 0;
+    outline: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+    padding-right: 0 !important;
+    transition: opacity .15s linear;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    pointer-events: none;
+    position: relative;
+    width: auto;
+    margin: 1.75rem auto;
+    max-width: 500px;
+    max-height: calc(100% - 3.5rem);
+    min-height: calc(100% - 3.5rem);
+    transition: transform .3s ease-out;
+    transform: none;
+}
+
+.modal-dialog .modal-content {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    outline: 0;
+    pointer-events: auto;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    gap: 16px;
+    margin: auto;
+    overflow: hidden;
+    max-height: none;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.modal-header {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-shrink: 0;
+    background: #fafafa;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+    }
+    
+.modal-header .modal-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #323232;
+}
+
+.modal-header .close {
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    color: #000;
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .5;
+    text-shadow: 0 1px 0 #fff;
+    border: 0;
+    margin: -1rem -1rem -1rem auto;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    width: 30px;
+    right: 25px;
+    top: 25px;
+}
+
+.modal-body {
+    flex: 1 1 auto;
+    padding: 1rem;
+    position: relative;
+    overflow-y: auto;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item .product-img {
+    width: 100px;
+    height: 100px;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item .product-info {
+    padding-left: 1rem;
+    width: calc(100% - 110px);
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item .product-info .product-price-qty {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item .product-info .item__price .block-box-price {
+    margin-bottom: 5px;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item .product-info .product-price-qty .block-box-price .box-info__box-price {
+    margin-top: 0;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item .product-info .product-price-qty .block-box-price .box-info__box-price .product__price--show {
+    margin-bottom: 0;
+}
+
+#modalViewListItemInQuote .modal-dialog .modal-content .modal-body .product-item .product-info .product-price-qty .block-box-price .box-info__box-price .product__price--through {
+    margin: 0;
+}
+
+.modal-backdrop {
+    background-color: #000;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1040;
+    opacity: .5;
+}
